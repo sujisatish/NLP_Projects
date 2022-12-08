@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("dir/file.csv")
+df = pd.read_csv("test.csv")
 
 @st.experimental_memo
 def convert_df(df):
